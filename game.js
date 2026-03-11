@@ -1,21 +1,21 @@
 const fishImages = [
 
-"images/fish1.png",
-"images/fish2.png",
-"images/fish3.png",
-"images/fish4.png",
-"images/fish5.png",
-"images/fish6.png",
-"images/fish7.png",
-"images/fish8.png",
-"images/fish9.png",
-"images/fish10.png",
-"images/fish11.png",
-"images/fish12.png"
+"image/fish1.png",
+"image/fish2.png",
+"image/fish3.png",
+"image/fish4.png",
+"image/fish5.png",
+"image/fish6.png",
+"image/fish7.png",
+"image/fish8.png",
+"image/fish9.png",
+"image/fish10.png",
+"image/fish11.png",
+"image/fish12.png"
 
 ]
 
-const backImage = "images/back.png"
+const backImage = "image/back.png"
 
 let cards = [...fishImages, ...fishImages]
 
@@ -98,5 +98,6 @@ lockBoard = false
 },1000)
 
 }
+
 
 }
